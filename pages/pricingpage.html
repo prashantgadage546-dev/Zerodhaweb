@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.navbar {
+  height: 65px;
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.logo {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+  padding-right: 90px;
+}
+.menu a {
+  color: #666666;
+  text-decoration: none;
+  font-size: 15px;
+}
+.menu i {
+  font-size: 20px;
+  padding: 22px 10px;
+  /* background-color: blue; */
+}
+.menu a:hover {
+  color: rgb(100, 100, 216);
+}
+.logo img {
+  width: 40%;
+}
+.menus-sub {
+  height: 400px;
+  width: 50%;
+  /* background-color: red; */
+  position: absolute;
+  top: 65px;
+  display: none;
+}
+.ri-menu-line:hover + .menus-sub {
+  display: block;
+}
+.menus-sub:hover {
+  display: block;
+}
+.first {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.kite {
+  height: 100%;
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.kite img {
+  margin-top: 27px;
+}
+.kite h4 {
+  margin-top: 11px;
+  font-size: 14.4px;
+  color: #666666;
+}
+.kite p {
+  margin-top: 7px;
+  color: #9b9b9b;
+  font-size: 12px;
+}
+.Console {
+  height: 100%;
+  width: 25%;
+  background-color: blueviolet;
+}
+.Kite-Connect {
+  height: 100%;
+  width: 25%;
+  background-color: blueviolet;
+}
+.Coin {
+  height: 100%;
+  width: 25%;
+  background-color: blueviolet;
+}
+
+.second {
+  height: 60%;
+  width: 100%;
+  /* background-color: cadetblue; */
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.utilities {
+  height: 100%;
+  width: 25%;
+  /* margin-top: 30px; */
+  background-color: rgb(250, 250, 251);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.utilities1 {
+  height: 100%;
+  width: 25%;
+  /* margin-top: 30px; */
+  background-color: rgb(250, 250, 251);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+#uti:hover{
+    color: rgb(85, 85, 224);
+}
+#cal:hover{
+    color: rgb(85, 85, 224);
+}
+#uti {
+  font-size: 19px;
+  color: #424242;
+  margin-top: 30px;
+  margin-left: 22px;
+  font-weight: 500;
+}
+#cal {
+  font-size: 16px;
+  color: #666666;
+  margin-left: 20px;
+}
+.Education {
+  height: 100%;
+  width: 50%;
+  /* margin-top: 30px; */
+  background-color: rgb(250, 250, 251);
+}
+.Education p {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #424242;
+  margin-left: 15%;
+}
+.cub1 {
+  height: 100%;
+  width: 50%;
+}
+.cub1 img {
+  height: 25%;
+  margin-left: 35%;
+  margin-top: 9%;
+}
+.cub1 p {
+  margin-left: 28%;
+  font-size: 15px;
+  color: #666666;
+}
+.cub2 {
+  height: 100%;
+  width: 50%;
+}
+.cub2 img {
+  height: 25%;
+  margin-left: 30%;
+  margin-top: 15%;
+}
+.cub2 p {
+  margin-left: 17%;
+  font-size: 15px;
+  color: #666666;
+}
+.varisty {
+  height: 70%;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+}
+
+</style>
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+          <img src="./Assets/logo.svg" alt="" />
+        </div>
+        <div class="menu">
+          <a href="./index.html">Home</a>
+          <a href="./pages/signpage.html">SignUp</a>
+          <a href="./pages/Aboutpage.html">About</a>
+          <a href="./pages/productpage.html">Products</a>
+          <a href="#">Pricing</a>
+          <a href="./pages/Supportpage.html">Support</a>
+  
+          <i class="ri-menu-line"></i>
+          <div class="menus-sub">
+            <div class="first">
+              <div class="kite">
+                <img src="Assets/kite-logo (1).svg" alt="" />
+                <h4>Kite</h4>
+                <p>Trading Platform</p>
+              </div>
+              <div class="kite">
+                <img src="Assets/console.svg" alt="" />
+                <h4>Console</h4>
+                <p>Back Office</p>
+              </div>
+              <div class="kite">
+                <img src="Assets/kite-connect.svg" alt="" />
+                <h4>Kite Connect</h4>
+                <p>Trading APIs</p>
+              </div>
+              <div class="kite">
+                <img src="Assets/coin.svg" alt="" />
+                <h4>Coin</h4>
+                <p>Mutual Funds</p>
+              </div>
+            </div>
+            <div class="second">
+              <div class="utilities">
+                <p id="uti">utilities</p>
+                <p id="cal">Calculator</p>
+                <p id="cal">Brokerage Calculator</p>
+                <p id="cal">Margin Calculator</p>
+                <p id="cal">SIP Calculator</p>
+              </div>
+              <div class="utilities1">
+                <p id="uti">Updates</p>
+                <p id="cal">Z-Connect blog</p>
+                <p id="cal">Circular / Bulletin</p>
+                <p id="cal">IPOs</p>
+                <p id="cal">Markets</p>
+              </div>
+              <div class="Education">
+                <p>Education</p>
+                <div class="varisty">
+                  <div class="cub1">
+                    <img src="./Assets/varsity.png" alt="" />
+                    <p>Varisty</p>
+                  </div>
+                  <div class="cub2">
+                    <img src="./Assets/tqna.png" alt="" />
+                    <p>Trading Q&A</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+</body>
+</html>
